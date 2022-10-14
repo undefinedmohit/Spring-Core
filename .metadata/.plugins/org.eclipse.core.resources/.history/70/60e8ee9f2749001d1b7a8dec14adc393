@@ -1,0 +1,19 @@
+package com.hql;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class Operation {
+
+	
+	
+	public static void main(String[] args) {
+		
+		Configuration cfg= new Configuration().configure();
+		SessionFactory factory= cfg.buildSessionFactory();
+		
+		factory.close();
+		
+		
+	}
+}

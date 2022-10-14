@@ -1,0 +1,22 @@
+package com.tut.ProjectWithMaven;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class FetchDemo {
+	
+	Configuration cfg= new Configuration().configure();
+	
+	SessionFactory factory= cfg.buildSessionFactory();
+	
+	Session session= factory.openSession();
+	
+	
+	
+		session.close();
+	
+	
+
+
+}

@@ -1,0 +1,24 @@
+package com.operations;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class Operate {
+	
+	public static void main(String[] args) {
+	
+		Configuration cfg = new Configuration().configure();
+		SessionFactory factory=cfg.buildSessionFactory();
+		
+		Employee emp1= new Employee();
+		emp1.setId(10);
+		emp1.setName("Mohit");
+		emp1.setDg("Java developer");
+		
+		emp1.setLaptop(list);
+		
+		
+		factory.close();
+	}
+
+}

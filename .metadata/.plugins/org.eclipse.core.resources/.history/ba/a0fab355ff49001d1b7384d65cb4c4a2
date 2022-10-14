@@ -1,0 +1,21 @@
+package com.springcore.life;
+
+public class Pizza {
+	private String ready;
+
+	public String getReady() {
+		return ready;
+	}
+
+	public void setReady(String ready) {
+		this.ready = ready;
+	}
+
+	@Override
+	public String toString() {
+		return "Pizza [ready=" + ready + "]";
+	}
+	
+	
+
+}

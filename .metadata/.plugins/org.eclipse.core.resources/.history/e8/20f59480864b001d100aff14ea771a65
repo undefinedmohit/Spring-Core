@@ -1,0 +1,7 @@
+package com.di.anno;
+
+public class Animal {
+	private Pet p;
+	
+
+}

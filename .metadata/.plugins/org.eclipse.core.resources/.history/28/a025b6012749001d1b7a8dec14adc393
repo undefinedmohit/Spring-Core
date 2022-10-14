@@ -1,0 +1,12 @@
+package com.hql;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Students {
+
+	private String id;
+	private String name;
+	private String city;
+	
+}

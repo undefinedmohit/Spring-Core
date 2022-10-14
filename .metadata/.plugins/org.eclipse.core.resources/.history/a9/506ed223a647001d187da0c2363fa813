@@ -1,0 +1,11 @@
+package com.map1;
+
+import java.util.List;
+
+public class Project {
+	private int pid;
+	private String projectName;
+	
+	private List<Emp> emps;
+
+}

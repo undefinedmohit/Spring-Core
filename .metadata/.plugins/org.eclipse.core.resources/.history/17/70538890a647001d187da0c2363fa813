@@ -1,0 +1,24 @@
+package com.map1;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class MappingDemo {
+
+	public static void main(String[] args) {
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		SessionFactory factory=cfg.buildSessionFactory();
+		
+		Emp e1=new Emp();
+		Emp e2=new Emp();
+		
+		e1.setEid(10);
+		e1.setName("Mohit");
+		
+		
+		
+		
+		factory.close();
+	}
+}

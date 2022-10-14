@@ -1,0 +1,24 @@
+package com.di.anno;
+
+public class Danger {
+	
+	private String danger;
+
+	public String getDanger() {
+		return danger;
+	}
+
+	public void setDanger(String danger) {
+		this.danger = danger;
+	}
+
+	public Danger() {
+		super();
+		System.out.println("these are very dangerous hoooooh.......");
+	}
+	
+	
+
+}
+
+

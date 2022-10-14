@@ -1,0 +1,13 @@
+package com.springcore.life;
+
+public class A {
+
+	private double patakhe;
+
+	public A(double patakhe) {
+		super();
+		this.patakhe = patakhe;
+	}
+
+	
+}

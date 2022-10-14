@@ -1,0 +1,32 @@
+package com.di.anno;
+
+public class Cute {
+	private String cutu;
+
+	public String getCutu() {
+		return cutu;
+	}
+
+	public void setCutu(String cutu) {
+		this.cutu = cutu;
+	}
+
+	public Cute(String cutu) {
+		super();
+		this.cutu = cutu;
+	}
+
+	public Cute() {
+		System.out.println("very cutuuu mutuuuu......");
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Cute [cutu=" + cutu + "]";
+	}
+	
+	
+
+}

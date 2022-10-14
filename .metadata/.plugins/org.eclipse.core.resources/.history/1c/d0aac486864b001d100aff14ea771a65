@@ -1,0 +1,29 @@
+package com.di.anno;
+
+public class Animal {
+	private Pet p;
+	private Danger d;
+	private Cute c;
+	public Pet getP() {
+		return p;
+	}
+	public void setP(Pet p) {
+		this.p = p;
+	}
+	public Danger getD() {
+		return d;
+	}
+	public void setD(Danger d) {
+		this.d = d;
+	}
+	public Cute getC() {
+		return c;
+	}
+	public void setC(Cute c) {
+		this.c = c;
+	}
+	
+	
+	
+
+}

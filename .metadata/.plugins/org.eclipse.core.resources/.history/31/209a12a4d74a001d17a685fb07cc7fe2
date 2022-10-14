@@ -1,0 +1,34 @@
+package com.springcore.collections.util;
+
+import java.util.List;
+
+public class A {
+	
+	private List<int> l;
+
+	public List getL() {
+		return l;
+	}
+
+	public void setL(List l) {
+		this.l = l;
+	}
+
+	public A(List l) {
+		super();
+		this.l = l;
+	}
+
+	public A() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "A [l=" + l + "]";
+	}
+	
+	
+
+}

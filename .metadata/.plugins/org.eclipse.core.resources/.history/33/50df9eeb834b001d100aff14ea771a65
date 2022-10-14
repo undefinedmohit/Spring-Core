@@ -1,0 +1,11 @@
+package com.practice.spring;
+
+public class Processor {
+	private String p;
+	
+	public Processor(String p)
+	{
+		System.out.println("vroom vroom...... processor started.");
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.springcore.life;
+
+public class A {
+
+	private double patakhe;
+
+	public A(double patakhe) {
+		super();
+		this.patakhe = patakhe;
+	}
+
+	@Override
+	public String toString() {
+		return "A [patakhe=" + patakhe + "]";
+	}
+
+	
+	
+}

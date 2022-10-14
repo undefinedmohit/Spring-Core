@@ -1,0 +1,8 @@
+package com.springcore.collections;
+
+public class Employee {
+	
+	private String name;
+	private List phone;
+
+}

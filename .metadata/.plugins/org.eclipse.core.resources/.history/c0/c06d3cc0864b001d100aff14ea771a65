@@ -1,0 +1,12 @@
+package com.di.anno;
+
+public class Pet {
+	private String pets;
+	
+	public Pet()
+	{
+		super();
+		System.out.println("these pets are likely Dog, Cat, Fish....");
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.p;
+
+public class Anno {
+
+	private String name;
+	private String city;
+	private int income;
+	
+}

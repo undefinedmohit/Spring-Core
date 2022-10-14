@@ -1,0 +1,12 @@
+package com.testingMyself.JustForTestingMyself;
+
+public class Entities {
+
+	private String name;
+	private int id;
+	private String city;
+	private double cgpa;
+	
+	
+
+}

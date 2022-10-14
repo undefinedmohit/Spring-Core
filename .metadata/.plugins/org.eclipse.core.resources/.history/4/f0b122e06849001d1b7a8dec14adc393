@@ -1,0 +1,13 @@
+package com.springcore.collections;
+
+import java.util.List;
+
+public class Employee {
+	
+	private String name;
+	private List phone;
+	private Set city;
+	privat
+	
+
+}

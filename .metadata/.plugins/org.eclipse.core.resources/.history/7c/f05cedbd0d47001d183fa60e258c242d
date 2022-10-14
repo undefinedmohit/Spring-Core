@@ -1,0 +1,38 @@
+package com.tut.ProjectWithMaven;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class EmOperation {
+
+	
+	public static void main(String[] args) {
+		
+		Configuration cfg= new Configuration().configure();
+		SessionFactory factory= cfg.buildSessionFactory();
+		Session session=factory.openSession();
+		
+		Student student=new Student();
+		student.setName("Mohit");
+		student.setCity("SRE");
+		student.setId(14);
+		
+		Certificate certify= new Certificate();
+		certify.setCourse("Android");
+		certify.setDuration("2 months");
+		
+		student.setCertify(certify);
+		
+		System.out.println("done..");
+		
+		session.save(student)
+		
+		
+		
+		session.close();
+		factory.close();
+		
+	}
+	
+}

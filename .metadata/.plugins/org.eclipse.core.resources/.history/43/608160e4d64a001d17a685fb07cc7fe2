@@ -1,0 +1,8 @@
+package com.springcore.collections.util;
+
+public class A {
+	
+	private List l;
+	
+
+}

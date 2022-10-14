@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean class="com.practice.spring.Processor" 
+	name="processor">
+	
+	</bean>
+	<bean class="com.practice.spring.Apple" name="iPhone">
+
+	<property name="name" value="iPhone" />
+	<property name="imei" value="7141" />
+	<property name="price" value="999.99" />
+
+	</bean>
+
+
+</beans>

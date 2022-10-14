@@ -1,0 +1,10 @@
+package com.company;
+
+public class Boss {
+	
+	private int wd;
+	private String name;
+	private String dg;
+	
+
+}

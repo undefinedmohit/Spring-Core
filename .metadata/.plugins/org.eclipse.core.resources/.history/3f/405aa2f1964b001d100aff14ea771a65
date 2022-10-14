@@ -1,0 +1,15 @@
+package com.remove;
+
+public class Charger {
+	
+	private String charging;
+
+	public Charger() {
+		super();
+		System.out.println("hi, i'm charging your phone.......");
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

@@ -1,0 +1,7 @@
+package com.springcore.autowrite.anno;
+
+public class B {
+	private String b;
+	
+
+}

@@ -1,0 +1,12 @@
+package com.springcore.collections;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AppClass {
+
+	public static void main(String[] args) {
+		
+		new ClassPathXmlApplicationContext("com/springcore/collections/collectionconfig.xml");
+		
+	}
+}

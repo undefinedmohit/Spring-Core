@@ -1,0 +1,59 @@
+package com.testingMyself.JustForTestingMyself;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Entities {
+
+	private String name;
+	@Id
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	private String city;	
+	private double cgpa;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public double getCgpa() {
+		return cgpa;
+	}
+	public void setCgpa(double cgpa) {
+		this.cgpa = cgpa;
+	}
+	public Entities(String name, int id, String city, double cgpa) {
+		super();
+		this.name = name;
+		this.id = id;
+		this.city = city;
+		this.cgpa = cgpa;
+	}
+	public Entities() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "Entities [name=" + name + ", id=" + id + ", city=" + city + ", cgpa=" + cgpa + "]";
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,7 @@
+package com.remove;
+
+public class Phone {
+	private Charger charge;
+	
+
+}

@@ -1,0 +1,53 @@
+package com.di.anno;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Animal {
+	
+	@Value("#{pe}")
+	private Pet p;
+	@Value("#{dan}")
+	private Danger d;
+	@Value("#{cut}")
+	private Cute c;
+	
+	public Pet getP() {
+		return p;
+	}
+	public void setP(Pet p) {
+		this.p = p;
+	}
+	public Danger getD() {
+		return d;
+	}
+	public void setD(Danger d) {
+		this.d = d;
+	}
+	public Cute getC() {
+		return c;
+	}
+	public void setC(Cute c) {
+		this.c = c;
+	}
+	
+	public Animal() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Animal(Pet p, Danger d, Cute c) {
+		super();
+		this.p = p;
+		this.d = d;
+		this.c = c;
+	}
+	@Override
+	public String toString() {
+		return "Animal [p=" + p.getPets() + ", d=" + d.getDanger() + ", c=" + c.getCutu() + "]";
+	}
+	
+	
+	
+
+}

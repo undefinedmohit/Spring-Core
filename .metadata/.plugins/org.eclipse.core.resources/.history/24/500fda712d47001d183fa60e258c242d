@@ -1,0 +1,11 @@
+package com.map;
+
+import org.hibernate.annotations.Entity;
+
+@Entity
+public class Answer {
+	private int id;
+	private String answer;
+	
+
+}

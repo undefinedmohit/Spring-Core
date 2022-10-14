@@ -1,0 +1,20 @@
+package com.p;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		AbstractApplicationContext con= new ClassPathXmlApplicationContext("com/p/config.xml");
+	Anno n=con.getBean("ob",Anno.class);
+	
+	System.out.println(n);
+	
+	
+	
+	con.close();
+		
+	}
+
+}

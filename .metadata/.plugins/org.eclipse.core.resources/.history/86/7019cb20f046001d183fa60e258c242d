@@ -1,0 +1,41 @@
+package com.tut.ProjectWithMaven;
+
+import org.hibernate.*;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    
+
+	public static void main( String[] args )
+    {
+        System.out.println( "Project Started.." );
+        
+        Configuration cfg= new Configuration();
+        cfg.configure();
+        SessionFactory factory = cfg.buildSessionFactory();
+        
+       //creating students.....
+        
+        Student st= new Student();
+        st.setId(101);
+        st.setCity("Saharanpur");
+        st.setName("John");	
+        System.out.println(st);
+        
+        Session session=factory.openSession();
+        
+        Transaction tx=session.beginTransaction();
+        session.save(st);
+        tx.commit();
+        
+        session.close();
+    }
+    
+}

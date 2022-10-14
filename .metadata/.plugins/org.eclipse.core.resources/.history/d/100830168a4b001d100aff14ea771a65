@@ -1,0 +1,33 @@
+package com.di.anno;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Pet {
+	@Value("Dogs")
+	private String pets;
+	
+	public Pet()
+	{
+		super();
+		System.out.println("these pets are likely Dog, Cat, Fish....");
+		System.out.println(pets);
+	}
+
+	public String getPets() {
+		return pets;
+	}
+
+	public void setPets(String pets) {
+		this.pets = pets;
+	}
+
+	@Override
+	public String toString() {
+		return "Pet [pets=" + pets + "]";
+	}
+	
+	
+
+}

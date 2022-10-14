@@ -1,0 +1,11 @@
+package com.di.anno;
+
+public class Danger {
+	
+	private String danger;
+	
+	
+
+}
+
+

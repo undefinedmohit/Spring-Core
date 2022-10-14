@@ -1,0 +1,23 @@
+package com.testingMyself.JustForTestingMyself;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Connected...." );
+        Configuration cfg= new Configuration().configure("hibernate.cfg.xml");
+        
+        SessionFactory factory =cfg.buildSessionFactory();
+        
+       Entities en =new Entities("Mohit Yadav", 24, "city", 67.11);
+        
+        
+    }
+}

@@ -1,0 +1,13 @@
+package com.company;
+
+import java.util.List;
+
+public class Boss {
+	
+	private int wd;
+	private String name;
+	private String dg;
+	
+	private List<Work> work;
+
+}

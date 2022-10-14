@@ -1,0 +1,16 @@
+package com.di.anno;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+	
+	public static void main(String[] args) {
+	ClassPathXmlApplicationContext con	= new ClassPathXmlApplicationContext("com/di/anno/config.xml");
+		
+	Animal c=con.getBean("a", Animal.class);
+	
+	System.out.println(c);
+	con.close();
+	}
+
+}
